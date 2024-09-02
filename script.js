@@ -65,11 +65,11 @@ const playGame = function () {
 
 const winner = function (humanScore, computerScore) {
   if (computerScore < humanScore) {
-    alert("You win");
+    console.log("You win!");
   } else if (computerScore > humanScore) {
-    alert("You lose");
+    console.log("You lose!");
   } else {
-    alert("It's a tie");
+    console.log("It's a tie");
   }
 };
 playGame();
