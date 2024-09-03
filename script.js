@@ -6,7 +6,7 @@ const getComputerChoice = function () {
 };
 
 const getHumanChoice = function () {
-  const player = prompt("Choose one (Rock, Paper, or Scissors): ");
+  // const player = prompt("Choose one (Rock, Paper, or Scissors): ");
   return player;
 };
 
