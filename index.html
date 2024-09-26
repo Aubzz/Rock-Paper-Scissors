@@ -7,23 +7,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
-      <h1 class="gameName">Rock Paper Scissors</h1>
-      <section class="main-score">
-        <p id="playerScore" class="player">
-          Player Score: <span class="score">0</span>
-        </p>
-        <p id="computerScore" class="computer">
-          Computer Score: <span class="score">0</span>
-        </p>
-        <p id="winner" class="winGame"></p>
-      </section>
-      <div class="btns">
-        <button class="btn rock"><img src="rock.jpg" /></button>
-        <button class="btn paper"><img src="paper.jpg" /></button>
-        <button class="btn scissors"><img src="scissors.jpg" /></button>
-      </div>
-    </main>
+    <header>
+      <h1 class="name">Rock Paper Scissors</h1>
+    </header>
+    <div class="main-score">
+      <div class="main" id="player">Player</div>
+      <div class="main" id="computer">Computer</div>
+      <span class="score computerScore">0</span>-<span class="score playerScore"
+        >0</span
+      >
+    </div>
     <script src="script.js"></script>
+    <div class="statusBoard">
+      <div class="win">Player Wins</div>
+      <div class="lose">Player Lose</div>
+    </div>
+    <div class="choices">
+      <div class="choice rock">
+        <img src="./images/rock.jpg" />
+      </div>
+      <div class="choice paper">
+        <img src="./images/paper.jpg" />
+      </div>
+      <div class="choice scissors">
+        <img src="./images/scissors.jpg" />
+      </div>
+    </div>
   </body>
 </html>
